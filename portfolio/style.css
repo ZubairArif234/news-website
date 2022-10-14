@@ -1,0 +1,140 @@
+.list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  /* margin-top: 20px; */
+}
+/* .list li a {
+  text-decoration: none;
+  color: black;
+}
+.list li a:focus {
+  color: #f78b00;
+} */
+.headlist{
+  border-top: 2px solid #f78b00;
+  border-bottom: 2px solid #f78b00;
+}
+.namehead{
+  display: flex;
+  /* background-color: aqua; */
+}
+.namenews{
+  margin-top: 20px;
+}
+.firstcol{
+  display: flex;
+  border: 2px solid #f78b00;
+  /* justify-content: space-around; */
+  /* background-color: aqua; */
+}
+.img{
+  /* background-color: aqua; */
+  width: 300px;
+}
+.contanr{
+  margin-left: 20px;
+}
+.newsimg{
+  width: 250px;
+  padding: 10px;
+}
+.h3news{
+  margin-top: 10px;
+  font-size: 30px;
+}
+.more{
+  margin: 10px;
+  width: 230px;
+  border: 2px solid #f78b00;
+  color: #f78b00;
+  background-color: white;
+  padding: 5px;
+}
+.pnews{
+  font-size: 20px;
+}
+.more a {
+  text-decoration: none;
+  color: #f78b00;
+  font-weight: bold;
+}
+.more:hover {
+  text-decoration: underline;
+  /* color: white;
+  background-color: #f78b00;
+  font-weight: bold; */
+}
+#search{
+  width: 85%;
+  border: none;
+  outline: none;
+
+}
+.search{
+  /* background-color: aqua; */
+  /* border-bottom: 2px solid gray; */
+  width: 90%;
+}
+.classBtn {
+  padding: 5px;
+  width: 95px;
+  outline: none;
+  border: none;
+  background-color: #f78b00;
+  color: white;
+}
+.dropdown{
+  color: white;
+  border: none;
+  background-color: #f78b00;
+  padding: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .list{
+     justify-content: space-around;
+      font-size: 11px;
+      
+  }
+  .newsimg{
+    width: 150px;
+    height: 150px;
+  }
+  .h3news{
+    font-size: 15px;
+  }
+  .img{
+    /* background-color: aqua; */
+    width: 150px;
+  }
+  .more{
+    /* margin: 10px; */
+    width: 130px;
+  }
+  .pnews{
+    font-size: 11px;
+  }
+  .classBtn {
+    
+    width: 75px;
+    
+  }
+  #search{
+    width: 65%;
+    
+  
+  }
+  
+  
+  
+}

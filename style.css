@@ -1,0 +1,55 @@
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* margin-top: 20px; */
+}
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+.list li a:focus {
+    color: #f78b00;
+}
+.headlist{
+    border-top: 2px solid #f78b00;
+    border-bottom: 2px solid #f78b00;
+}
+.namehead{
+    display: flex;
+    /* background-color: aqua; */
+}
+.namenews{
+    margin-top: 20px;
+}
+.firstcol{
+    
+    background-color: aqua;
+}
+.secondcol{
+    
+    background-color: gold;
+}
+.thirdcol{
+    
+    background-color: green;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .list{
+       justify-content: space-around;
+        font-size: 11px;
+        
+    }
+    
+    
+}
